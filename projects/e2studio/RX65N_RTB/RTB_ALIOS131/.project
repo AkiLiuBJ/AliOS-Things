@@ -350,6 +350,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>middleware/uagent/ulog</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>network/nal/athost</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -718,6 +723,41 @@
 			<name>middleware/uagent/ota/ota_core</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/include</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/log.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/log.c</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/session_fs.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/session_fs.c</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/session_udp.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/session_udp.c</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/ulog.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/ulog.c</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/ulog_init.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/ulog_init.c</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/uring_fifo.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/uring_fifo.c</locationURI>
 		</link>
 		<link>
 			<name>network/nal/athost/athost_export.h</name>
@@ -1123,6 +1163,21 @@
 			<name>middleware/uagent/ota/ota_core/verify</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/include/ulog_api.h</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/include/ulog_api.h</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/include/ulog_config.h</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/include/ulog_config.h</locationURI>
+		</link>
+		<link>
+			<name>middleware/uagent/ulog/include/uring_fifo.h</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/middleware/uagent/ulog/include/uring_fifo.h</locationURI>
 		</link>
 		<link>
 			<name>network/nal/athost/src/at_util.c</name>

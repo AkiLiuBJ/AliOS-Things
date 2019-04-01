@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <unistd.h> 
 #include <errno.h>
-#include <hal/ota.h>
+#include <hal/ota_hal_plat.h>
 #include <aos/log.h>
 #include <hal/soc/soc.h>
 #include <CheckSumUtils.h>
@@ -186,7 +186,7 @@ static void  hal_ota_save_crc16(uint16_t crc16)
     aos_kv_set(KV_HAL_OTA_CRC16, &crc16, 2, 1);
 }
 
-struct hal_ota_module_s rx65n_ota_module = {
+struct ota_hal_module_s rx65n_ota_module = {
     .init = rx65n_ota_init,
     .ota_write = rx65n_ota_write,
     .ota_read = rx65n_ota_read,

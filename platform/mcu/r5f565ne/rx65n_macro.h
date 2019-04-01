@@ -17,5 +17,9 @@
 #define AOS_packed
 #define __FUNCTION__ __func__
 #define CONFIG_GUIDER_AUTH_TIMEOUT  (10 * 1000)
+#define __attribute__(packed)
 //#define renesas_03 1 //test device 01
+
+#include "aos/yloop.h"
+
 #endif /* PLATFORM_MCU_R5F565NE_RX65N_MACRO_H_ */
