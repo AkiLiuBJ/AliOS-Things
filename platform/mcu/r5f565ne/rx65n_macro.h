@@ -17,6 +17,7 @@
 #define AOS_packed
 #define __FUNCTION__ __func__
 #define CONFIG_GUIDER_AUTH_TIMEOUT  (10 * 1000)
+<<<<<<< HEAD
 #define UTILS_EVENT	//if not define it ,awss_reset.c  will not  include the iot_export_event.h
 #define NET_WITH_WIFI //if not define it , netmgr_wifi.c will not include netmgr_wifi.h
 #define MCU_FAMILY "mcu_r5f565ne"
@@ -29,5 +30,11 @@
 #define	UTILS_MD5
 #define	UTILS_JSON_PARSER
 #define	UTILS_STRING
+=======
+#define __attribute__(packed)
+>>>>>>> gilbert968-rel_2.1.0
 //#define renesas_03 1 //test device 01
+
+#include "aos/yloop.h"
+
 #endif /* PLATFORM_MCU_R5F565NE_RX65N_MACRO_H_ */

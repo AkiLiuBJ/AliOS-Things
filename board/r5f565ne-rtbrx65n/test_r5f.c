@@ -30,6 +30,7 @@
 #include "network.h"
 #include "kv.h"
 #include <netmgr.h>
+#include "aos/yloop.h"
 //#include <accs.h>
 
 #include "iot_export.h"
